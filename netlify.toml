@@ -1,0 +1,8 @@
+# netlify.toml
+
+
+[[redirects]]
+  # Redirect all requests to the root index.html file
+  from = "/*"
+  to = "/index.html"
+  status = 200
